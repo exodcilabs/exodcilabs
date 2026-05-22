@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-EXODCI Labs documentation
+EXODCI Labs Documentation
 =========================
 
 Content coming soon.
