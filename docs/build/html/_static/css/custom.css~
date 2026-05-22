@@ -1,0 +1,247 @@
+/* =========================================================
+   EXODCI Sphinx Cloud Theme Customization
+   ========================================================= */
+
+/* Global page */
+body {
+    background: #ffffff !important;
+    color: #222222;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Remove Cloud theme gradients, shadows, and decorations */
+* {
+    background-image: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+
+div.document,
+div.documentwrapper,
+div.bodywrapper,
+div.body,
+div.footer,
+div.header,
+div.related,
+div.relbar-top,
+div.relbar-bottom {
+    background: #ffffff !important;
+    border: none !important;
+}
+
+/* Main content */
+div.body {
+    padding: 2rem;
+}
+
+/* Links */
+a {
+    color: #005a9c;
+}
+
+a:hover {
+    color: #003f6b;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+    color: #111111;
+}
+
+/* Code blocks */
+div.highlight {
+    background: #fafafa !important;
+    border: 1px solid #e5e5e5;
+}
+
+/* Admonitions */
+div.admonition {
+    background: #fcfcfc !important;
+    border: 1px solid #e0e0e0;
+    border-left: 4px solid #005a9c;
+}
+
+/* =========================================================
+   Top breadcrumb/navigation bar
+   ========================================================= */
+
+div.related {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.95rem;
+}
+
+div.related a {
+    color: #000000 !important;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+div.related a:hover {
+    color: #444444 !important;
+    text-decoration: underline;
+}
+
+/* Breadcrumb separator color */
+div.related ul li {
+    color: orange !important;
+}
+
+/* Remove next/previous/index links */
+div.related ul li.right {
+    display: none !important;
+}
+
+/* Remove bottom breadcrumb/navigation bar */
+div.relbar-bottom {
+    display: none !important;
+}
+
+/* =========================================================
+   Sidebar
+   ========================================================= */
+
+div.sphinxsidebar {
+    background: #ffffff !important;
+    border-left: 1px solid #eeeeee;
+    padding: 1rem;
+    border-radius: 0 !important;
+}
+
+/* Quick Search title */
+div.sphinxsidebar h3 {
+    font-size: 1rem !important;
+    color: #000000 !important;
+    font-variant: small-caps;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    margin-top: 1rem;
+    margin-bottom: 0.6rem !important;
+}
+
+/* Table of Contents caption */
+div.sphinxsidebar p.caption {
+    color: #000000 !important;
+    font-size: 1rem !important;
+    font-variant: small-caps;
+    font-weight: 700 !important;
+    letter-spacing: 0.05em;
+    margin-top: 0 !important;
+    margin-bottom: 0.6rem !important;
+}
+
+/* Remove automatic colon after TOC caption */
+div.sphinxsidebar p.caption span.caption-text::after,
+div.sphinxsidebar p.caption::after {
+    content: "" !important;
+}
+
+/* Sidebar lists */
+div.sphinxsidebar ul,
+div.sphinxsidebarwrapper ul {
+    padding-left: 1.1em !important;
+    margin-top: 0 !important;
+    margin-bottom: 0.2rem !important;
+}
+
+/* Sidebar list items */
+div.sphinxsidebar li,
+div.sphinxsidebarwrapper ul li,
+div.sphinxsidebarwrapper ul li p {
+    margin-top: 0 !important;
+    margin-bottom: 0.15rem !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+/* Sidebar links */
+div.sphinxsidebar a,
+div.sphinxsidebar .toctree-l1 > a,
+div.sphinxsidebar .toctree-l2 > a,
+div.sphinxsidebar .toctree-l3 > a {
+    color: #222222;
+    font-style: normal !important;
+    text-decoration: none;
+}
+
+div.sphinxsidebar a:hover {
+    color: orange;
+}
+
+/* TOC line spacing */
+div.sphinxsidebarwrapper li.toctree-l1,
+div.sphinxsidebarwrapper li.toctree-l2 {
+    line-height: 1.25 !important;
+}
+
+/* Remove blue strip behind section/page titles */
+div.body h1,
+div.body h2,
+div.body h3 {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+
+    border: none !important;
+    box-shadow: none !important;
+
+    padding-left: 0 !important;
+}
+
+/* Remove Cloud theme title decorations */
+div.body h1.title {
+    background: transparent !important;
+    border: none !important;
+}
+
+/* Section title font sizes */
+div.body h1 {
+    font-size: 1.75rem !important;
+}
+
+div.body h2 {
+    font-size: 1.5rem !important;
+}
+
+div.body h3 {
+    font-size: 1.2rem !important;
+}
+
+/* Visible underline below section/page titles */
+div.body h1,
+div.body h2,
+div.body h3,
+div.section > h1,
+div.section > h2,
+div.section > h3 {
+    color: #0a2242 !important;
+
+    border-bottom: 0.5px solid #0a2242 !important;
+
+    padding-bottom: 0rem !important;
+    margin-bottom: 0rem !important;
+}
+
+/* H1 title */
+div.body h1 {
+    color: #0a2242 !important;
+    font-size: 2rem !important;
+    border-bottom: none !important;
+}
+
+/* H2 sections with underline */
+div.body h2 {
+    color: #0a2242 !important;
+    font-size: 1.5rem !important;
+
+    border-bottom: 1px solid #d6dde5 !important;
+
+    padding-bottom: 0.25rem !important;
+    margin-bottom: 1rem !important;
+}
+
+/* H3 subsections */
+div.body h3 {
+    color: #0a2242 !important;
+    font-size: 1.2rem !important;
+    border-bottom: none !important;
+}
